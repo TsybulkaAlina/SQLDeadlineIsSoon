@@ -2,15 +2,7 @@ Thumbs.db*
 .DS_Store
 HELP.md
 .gradle
-build/
-gradlew
-gradlew.bat
-build.gradle
-pgdata
-data/*
-gradle/*
-settings.gradle
-
+/build/
 
 ### STS ###
 .apt_generated
@@ -27,8 +19,6 @@ settings.gradle
 *.iml
 *.ipr
 out/
-
-
 
 ### NetBeans ###
 /nbproject/private/
@@ -49,7 +39,8 @@ out/
 *.tar.gz
 *.rar
 
-
-
 ### Exclusions ###
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 !artifacts/app-deadline.jar

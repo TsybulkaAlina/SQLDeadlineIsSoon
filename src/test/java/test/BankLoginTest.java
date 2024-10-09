@@ -16,9 +16,6 @@ public class BankLoginTest {
         cleanDatabase();
     }
 
-    private static void cleanDatabase() {
-    }
-
     @Test
     void shouldSuccessfulLogin() {
         var loginPage = open("http://localhost:9999", LoginPage.class);
